@@ -1,1 +1,1 @@
-import './sort/sort';
+import './destructuring/destructuring';

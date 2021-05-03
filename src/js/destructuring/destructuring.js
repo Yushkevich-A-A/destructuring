@@ -1,8 +1,8 @@
-function destructuring({ special = []}) {
-    for (let prop of special) {
-        if (!prop.description){
-            prop.description = 'Описание недоступно';
-        }
+export function destructuring({ special = [] }) {
+  for (const prop of special) {
+    if (!prop.description) {
+      prop.description = 'Описание недоступно';
     }
-    return special;
+  }
+  return special;
 }
